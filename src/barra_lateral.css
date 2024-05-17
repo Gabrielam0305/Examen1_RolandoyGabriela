@@ -1,0 +1,27 @@
+.sidebar {
+    width: 200px;
+    background-color: #111;
+    border-right: 1px solid #ddd;
+    padding: 20px;
+    position: fixed;
+    top: 60px;
+    height: calc(100vh - 60px);
+    color: #fff;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    margin: 15px 0;
+    cursor: pointer;
+    color: #fff;
+  }
+
+  .sidebar-divider {
+    border: none;
+    border-top: 1px solid #444;
+    margin: 15px 0;
+  }

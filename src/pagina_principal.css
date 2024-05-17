@@ -1,0 +1,17 @@
+.homepage {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .main-content {
+    display: flex;
+    margin-top: 70px;
+    background-color: #000;
+  }
+  
+  .video-content {
+    margin-left: 220px;
+    padding: 20px;
+    flex: 1;
+    background-color: #000;
+  }
