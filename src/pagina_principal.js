@@ -1,6 +1,6 @@
 import React from 'react';
-import NavBar from './src/barra_navegacion';
-import Sidebar from './src/barra_lateral';
+import NavBar from './barra_navegacion.js';
+import Sidebar from './barra_lateral.js';
 import './pagina_principal.css';
 
 const sampleVideos = [

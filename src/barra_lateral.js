@@ -1,5 +1,5 @@
 import React from 'react';
-import './src/barra_lateral.css';
+import './barra_lateral.css';
 
 const Sidebar = () => (
   <div className="sidebar">
