@@ -20,18 +20,18 @@ const ContinuarViendo = () => {
             videoFecha: "10 ago 2023",
         },
         {
-            videoImg: "https://i.pinimg.com/564x/a9/dd/f1/a9ddf18664ee0bc535ebf0f429c5ab1f.jpg",
-            videoTitle: "The Bizarre World of Fake Video Games",
-            videoCanal: "https://yt3.googleusercontent.com/ytc/AIdro_nf-2tq10yzd6JoLwcChPQ_jA2rGV7bPeDaukxh6IBawFw=s176-c-k-c0x00ffffff-no-rj",
-            videoNomCanal: "Super Eyepatch Wolf",
-            videoFecha: "14 abr 2024",
+            videoImg: "https://i.pinimg.com/564x/e8/11/bc/e811bcd4ff7f17ba0ae7c8a30fccc145.jpg",
+            videoTitle: "The VERY Strange History of Unicorns",
+            videoCanal: "https://yt3.googleusercontent.com/oqQrtLnzfxrXU5DeN1MQZpEBfrx_lwDVFXPleUhkFEbTC_dMTxeYpOzb7uUuopY_eDrZi51fgw=s176-c-k-c0x00ffffff-no-rj",
+            videoNomCanal: "Kaz Rowe",
+            videoFecha: "29 sept 2023",
         },
         {
-            videoImg: "https://i.pinimg.com/564x/9e/7d/00/9e7d00f11722de6005453aad52e1eb9b.jpg",
-            videoTitle: "It's summer 1949, you're reading by the lake (oldies music, water sounds, birds) summer ambience",
-            videoCanal: "https://yt3.googleusercontent.com/ytc/AIdro_mrTxvsatWQiiqCG4Bl6KL76CtYe9WCpVR_uiRlPw4S1Lk=s176-c-k-c0x00ffffff-no-rj",
-            videoNomCanal: "Nemo's Dreamscapes",
-            videoFecha: "17 mar 2024",
+            videoImg: "https://i.pinimg.com/564x/90/28/fc/9028fca81f7902422f7c93c95ecca6be.jpg",
+            videoTitle: "Timelapse: Rain (CF18 Official Poster)",
+            videoCanal: "https://yt3.googleusercontent.com/JQzAvXLzwNI2g-RcF4wdhfXkbqtSy4wsDpltHOEQX9gIG_qrrXWVDVPSNpecTRW7oMkrpm3sK44=s176-c-k-c0x00ffffff-no-rj",
+            videoNomCanal: "Ann Maulina",
+            videoFecha: "1 may 2024",
         }
 
     ]

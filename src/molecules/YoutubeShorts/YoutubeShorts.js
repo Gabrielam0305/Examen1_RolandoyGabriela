@@ -1,37 +1,29 @@
 import React from "react";
 import "./YoutubeShorts.css"
-import Video from "../../atoms/Video/Video";
+import VideoCorto from "../../atoms/VideoCorto/VideoCorto";
 
 
 const YoutubeShorts = () => {
     let data = [
         {
-            videoImg: "https://img.freepik.com/foto-gratis/colores-arremolinados-interactuan-danza-fluida-sobre-lienzo-que-muestra-tonos-vibrantes-patrones-dinamicos-que-capturan-caos-belleza-arte-abstracto_157027-2892.jpg",
-            videoTitle: "Titulo",
-            videoCanal: "https://www.shutterstock.com/image-illustration/david-street-style-graphic-designtextile-600nw-2265632523.jpg",
-            videoNomCanal: "Canalsito",
-            videoFecha: "12/12/2012",
+            videoImg: "https://i.pinimg.com/564x/93/d8/14/93d814414aa0d113f4fce93e1a87c3b4.jpg",
+            videoTitle: " My DAD made me a dress!",
+            videoVisitas:"386 k de visitas"
         },
         {
-            videoImg: "",
-            videoTitle: "",
-            videoCanal: "",
-            videoNomCanal: "",
-            videoFecha: "",
+            videoImg: "https://i.pinimg.com/564x/92/b2/fa/92b2fa008c863e3fec6cecc8f6cadad8.jpg",
+            videoTitle: "Trying on all the things I made in 2021",
+            videoVisitas:"13 M de visitas"
         },
         {
-            videoImg: "",
-            videoTitle: "",
-            videoCanal: "",
-            videoNomCanal: "",
-            videoFecha: "",
+            videoImg: "https://i.pinimg.com/564x/9f/c0/23/9fc02383be6cef44e9d3ca18a6318787.jpg",
+            videoTitle: " Did G-Idle MOCK other GGs?!",
+            videoVisitas:"788 k de visitas"
         },
         {
-            videoImg: "",
-            videoTitle: "",
-            videoCanal: "",
-            videoNomCanal: "",
-            videoFecha: "",
+            videoImg: "https://i.pinimg.com/736x/bf/0e/17/bf0e1796eab03094e412d374f660a1cc.jpg",
+            videoTitle: "Gwen's 63 Outfits: DEEPER Meaning & EASTER EGG ",
+            videoVisitas:"5.4 M de visitas"
         }
 
     ]
@@ -41,7 +33,7 @@ const YoutubeShorts = () => {
             <div className="contenedorVideos">
                 {
                     data.map((objVideo) => (
-                        <Video data={objVideo} />
+                        <VideoCorto data={objVideo} />
                     ))
                 }
             </div>

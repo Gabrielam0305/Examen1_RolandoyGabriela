@@ -6,11 +6,11 @@ import Video from "../../atoms/Video/Video";
 const Recomendados = () => {
     let data = [
         {
-            videoImg: "https://i.pinimg.com/564x/13/12/d0/1312d0d884bd8d1ad5718901825dbf1b.jpg",
-            videoTitle: "aespa (에스파) - Supernova | Show! MusicCore | MBC240518방송",
-            videoCanal: "https://yt3.googleusercontent.com/HSJYam_ItBlkB_JRt35RegbOkEGmLOA5p3DiWU-DqJ3IgXJwgwhNoxAEiqBKXA-mblrNogatbQ=s176-c-k-c0x00ffffff-no-rj",
-            videoNomCanal: "MBCkpop",
-            videoFecha: "17 mayo 2024",
+            videoImg: "https://i.pinimg.com/564x/94/cb/04/94cb044928f3ae757e7bd3fe770ef53c.jpg",
+            videoTitle: "aespa 에스파 'Spicy' MV",
+            videoCanal: "https://yt3.googleusercontent.com/_1Z4I2qpWaCN9g3BcDd3cVA9MDHOG43lE1YNWDNkKro49haGxkjwuFK-I8faWTKM6Jle9qb4ag=s176-c-k-c0x00ffffff-no-rj",
+            videoNomCanal: "SMTOWN",
+            videoFecha: "8 may 2023",
         },
         {
             videoImg: "https://i.pinimg.com/564x/8c/36/9b/8c369be06d8157f261c9d4a80d39c55e.jpg",
@@ -27,11 +27,11 @@ const Recomendados = () => {
             videoFecha: "2 feb 2024",
         },
         {
-            videoImg: "https://i.pinimg.com/564x/bf/cd/83/bfcd831a5b4d5f7aea681a46ca182109.jpg",
-            videoTitle: "The Philosophy of Uncle Iroh: What does it mean to be a man? | The Last Airbender",
-            videoCanal: "https://yt3.googleusercontent.com/ytc/AIdro_mIhg5XmsGXTzA8_nEzg2FpXgh1xZLCDLb0R6kFAzkmyOE=s176-c-k-c0x00ffffff-no-rj",
-            videoNomCanal: "Hello Future Me",
-            videoFecha: "30 nov 2019",
+            videoImg: "https://i.pinimg.com/564x/ef/c7/d4/efc7d4d578f469c753217045c0577729.jpg",
+            videoTitle: "Fire And Death: Why 1666 Was The Worst Year To Be A Londoner | Fire & Fever | Timeline",
+            videoCanal: "https://yt3.googleusercontent.com/ytc/AIdro_ngqGmRD-_rfV3e6Qx71XqIo2RxPSfO7Z3cRMem4kkMCLg=s176-c-k-c0x00ffffff-no-rj",
+            videoNomCanal: "Timeline - World History Documentaries",
+            videoFecha: "14 nov 2023",
         }
 
     ]

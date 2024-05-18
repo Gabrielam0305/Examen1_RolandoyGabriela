@@ -1,0 +1,27 @@
+.CardVideoCorto{
+    width: 400px;
+    height: 600px;
+    padding: 1rem;
+}
+
+.CardVideoCorto img{
+    width: 100%;
+    border-radius: 10px;
+
+}
+.InfoVideo{
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+    align-items: center;
+}
+
+@media only screen and (min-width: 768px) {
+    .InfoVideo img{
+        width: 50px;
+        border-radius: 25px;
+    }
+    .InfoVideo .Metadata{
+        font-size: 10px;
+    }
+  }

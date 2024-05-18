@@ -14,6 +14,7 @@ const ContenedorVideos= () => {
       <Recomendados/>
       <MiMix/>
       <YoutubeShorts/>
+      
     </div>
   );
 }
