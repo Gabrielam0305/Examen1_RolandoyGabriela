@@ -1,0 +1,10 @@
+.ContinuarViendo{
+   color: aliceblue;
+   overflow: hidden;
+   width: 100%;
+   height: 400px;
+}
+.contenedorVideos{
+    display: flex;
+    overflow: auto;
+}

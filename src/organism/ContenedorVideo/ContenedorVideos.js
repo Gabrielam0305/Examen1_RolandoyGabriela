@@ -1,10 +1,13 @@
 import React from 'react';
 import './ContenedorVideos.css';
+import ContinuarViendo from '../../molecules/ContinuarViendo/ContinuarViendo';
+
 
 const ContenedorVideos= () => {
   return(
     <div className="contenedor">
-      <h1>Contendor Videos</h1>
+      <ContinuarViendo/>
+      
     </div>
   );
 }
