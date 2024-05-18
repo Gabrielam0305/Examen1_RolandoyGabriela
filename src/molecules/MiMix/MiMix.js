@@ -1,37 +1,30 @@
 import React from "react";
 import "./MiMix.css"
-import Video from "../../atoms/Video/Video";
+import VideoMix from "../../atoms/VideoMix/VideoMix";
 
 
 const MiMix = () => {
     let data = [
+
         {
-            videoImg: "https://img.freepik.com/foto-gratis/colores-arremolinados-interactuan-danza-fluida-sobre-lienzo-que-muestra-tonos-vibrantes-patrones-dinamicos-que-capturan-caos-belleza-arte-abstracto_157027-2892.jpg",
-            videoTitle: "Titulo",
-            videoCanal: "https://www.shutterstock.com/image-illustration/david-street-style-graphic-designtextile-600nw-2265632523.jpg",
-            videoNomCanal: "Canalsito",
-            videoFecha: "12/12/2012",
+            videoImg:  "https://i.ytimg.com/vi/4O1Bm5vJo2o/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDkukihYRnV0w0xu8yphX0EWh_dIQ",
+            NomMix: "Mix: Angel Fish",
+            Contenido: "Buck-Tick y Mucho más",
         },
         {
-            videoImg: "",
-            videoTitle: "",
-            videoCanal: "",
-            videoNomCanal: "",
-            videoFecha: "",
+            videoImg:  "https://i.ytimg.com/vi/lz_0q6CAlP8/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAIK20WqQIRa1iSILx-Oiq-TvbqWA",
+            NomMix: "Mix: The Smashing Pumpkins - SpellBinding",
+            Contenido: "The Smashing Pumpkins, The Verve, y Mucho más",
         },
         {
-            videoImg: "",
-            videoTitle: "",
-            videoCanal: "",
-            videoNomCanal: "",
-            videoFecha: "",
+            videoImg:  "https://i.ytimg.com/vi/Ae8W4iuh-2c/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCsZeXMZR3pwKefgWlUOrX5nxeU8g",
+            NomMix: "Mix: Jet - f(x)",
+            Contenido: "f(x), Red Velvet, y Mucho más",
         },
         {
-            videoImg: "",
-            videoTitle: "",
-            videoCanal: "",
-            videoNomCanal: "",
-            videoFecha: "",
+            videoImg:  "https://i.ytimg.com/vi/C8FQ4wQXyaE/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAG5p9XavE9kfaCG8ZnC1-hcUql-Q",
+            NomMix: "Mix: Pop",
+            Contenido: "Chayanne, Shakira, y Mucho más",
         }
 
     ]
@@ -41,7 +34,7 @@ const MiMix = () => {
             <div className="contenedorVideos">
                 {
                     data.map((objVideo) => (
-                        <Video data={objVideo} />
+                        <VideoMix data={objVideo} />
                     ))
                 }
             </div>

@@ -1,6 +1,7 @@
 .botoncito{
-    background-color: gray;
+    background-color: #2B3031;
     color: white;
+    border: none;
     border-radius: 10px;
     height: 30px;
     margin: 5px;
