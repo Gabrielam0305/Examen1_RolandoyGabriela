@@ -2,6 +2,7 @@ import React from 'react';
 import NavBar from './barra_navegacion.js';
 import Sidebar from './barra_lateral.js';
 import './pagina_principal.css';
+import ContenedorVideos from './organism/ContenedorVideo/ContenedorVideos.js';
 
 const sampleVideos = [
   {
@@ -19,6 +20,7 @@ const HomePage = () => (
     <NavBar />
     <div className="main-content">
       <Sidebar />
+      <ContenedorVideos/>
     </div>
   </div>
 );
