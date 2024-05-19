@@ -44,4 +44,5 @@
     width: 24px; /* Ajusta el tamaño según sea necesario */
     height: 24px;
     margin-right: 10px; /* Espacio entre la imagen y el texto */
+    background-color: #fff;
   }

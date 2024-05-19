@@ -10,6 +10,11 @@ import clockIcon from './clock-icon.png'
 import thumbsIcon from './thumbs-icon.png'
 import videosIcon from './videos-icon.png'
 import clipIcon from './clip-icon.png'
+import cho from './8cho.png'
+import saenz from './saenz.png'
+import alec from './alec.png'
+import meyers from './meyers.png'
+import angela from './angela.png'
 
 const Sidebar = () => (
   <div className="sidebar">
@@ -28,6 +33,11 @@ const Sidebar = () => (
       <li className="sidebar-item"> <img src={clipIcon} alt="n" className="sidebar-icon"/> Tus clips</li>
       <hr className="sidebar-divider" />
       <li>Suscripciones</li>
+      <li className="sidebar-item"> <img src={cho} alt="n" className="sidebar-icon"/> 8cho</li>
+      <li className="sidebar-item"> <img src={saenz} alt="n" className="sidebar-icon"/> Adrian Saenz</li>
+      <li className="sidebar-item"> <img src={alec} alt="n" className="sidebar-icon"/> Alec Hernandez</li>
+      <li className="sidebar-item"> <img src={meyers} alt="n" className="sidebar-icon"/> Alex Meyers en Español</li>
+      <li className="sidebar-item"> <img src={angela} alt="n" className="sidebar-icon"/> ANGELA YELIN</li>
     </ul>
   </div>
 );
