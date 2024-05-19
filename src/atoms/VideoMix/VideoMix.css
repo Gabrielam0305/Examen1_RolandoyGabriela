@@ -1,24 +1,33 @@
-.CardVideo{
-    width: 300px;
-    height: 200px;
-    padding: 1rem;
+.CardVideoMix{
+    min-width: 300px;
+    height: 250px;
+    margin: 0;
+    padding: 0;
 }
 
-.CardVideo img{
+.CardVideoMix img{
     width: 100%;
     border-radius: 10px;
 
 }
-.InfoVideo{
+.InfoVideoMix{
     display: flex;
     justify-content: flex-start;
     gap: 1rem;
     align-items: center;
     background-color: black;
 }
+.InfoVideoMix img{
+    width: 30px;
+    border-radius: 15px;
+}
 
 @media only screen and (min-width: 768px) {
-    .InfoVideo .Metadata{
+    .InfoVideoMix img{
+        width: 50px;
+        border-radius: 25px;
+    }
+    .InfoVideoMix .Metadata{
         font-size: 10px;
     }
   }

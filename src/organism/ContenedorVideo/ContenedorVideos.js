@@ -9,12 +9,11 @@ import Barra from '../../molecules/Barra/Barra'
 const ContenedorVideos= () => {
   return(
     <div className="contenedor">
-      <Barra/>
       <ContinuarViendo/>
       <Recomendados/>
       <MiMix/>
       <YoutubeShorts/>
-      
+
     </div>
   );
 }

@@ -8,12 +8,10 @@
     flex-direction: row;
     justify-content: flex-start;
     margin-top: 60px;
-    background-color: #000;
   }
   
   .video-content {
     margin-left: 220px;
     padding: 20px;
     flex: 1;
-    background-color: #000;
   }

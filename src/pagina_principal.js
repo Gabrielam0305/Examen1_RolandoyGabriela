@@ -18,10 +18,11 @@ const sampleVideos = [
 const HomePage = () => (
   <div className="homepage">
     <NavBar />
-    <div className="main-content">
-      <Sidebar />
-      <ContenedorVideos/>
-    </div>
+    <Sidebar />
+    <ContenedorVideos/>
+    {/* <div className="main-content">
+      
+    </div> */}
   </div>
 );
 

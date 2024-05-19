@@ -12,9 +12,9 @@ const VideoMix = ( props) => {
         window.open(URL, '_blank');
     }
     return (
-        <div className="CardVideo" onClick={handleClick}>
+        <div className="CardVideoMix" onClick={handleClick}>
             <img src={videoImg} className="VideoImg" />
-            <div className="InfoVideo">
+            <div className="InfoVideoMix">
             <div className="Metadata">
                 <h3>{NomMix}</h3>
                 <p>{Contenido}</p>

@@ -1,11 +1,14 @@
 .Recomendados{
     color: aliceblue;
-    overflow: hidden;
-    width: 100%;
-    height: 400px;
-    padding: 10px;
+   width: 100%;
+   min-height: 400px;
+   padding: 1rem;
  }
  .contenedorVideos{
-     display: flex;
-     overflow: auto;
+    min-height: 250px;
+    display: flex;
+    gap: 1rem;
+    overflow-x: auto;
+    margin: 0;
+    padding: 0;
  }

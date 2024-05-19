@@ -1,7 +1,9 @@
 .CardVideoCorto{
-    width: 400px;
+    min-width: 300px;
     height: 600px;
     padding: 1rem;
+    margin: 0;
+    padding: 0;
 }
 
 .CardVideoCorto img{
@@ -18,7 +20,7 @@
 
 @media only screen and (min-width: 768px) {
     .InfoVideo img{
-        width: 50px;
+        width: 60px;
         border-radius: 25px;
     }
     .InfoVideo .Metadata{
