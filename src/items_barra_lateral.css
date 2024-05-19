@@ -1,0 +1,15 @@
+/* src/components/atoms/SidebarItem.css */
+.sidebar-item {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+    cursor: pointer;
+    color: #fff; /* Texto blanco */
+  }
+  
+  .sidebar-icon {
+    width: 24px; /* Tamaño del icono */
+    height: 24px;
+    margin-right: 10px; /* Espacio entre el icono y el texto */
+  }
+  
