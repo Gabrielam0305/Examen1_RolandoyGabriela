@@ -8,9 +8,13 @@ const Video = ( props) => {
         videoCanal,
         videoNomCanal,
         videoFecha,
+        URL
     }= props.data
+        const handleClick = () => {
+            window.open(URL, '_blank');
+        }
     return (
-        <div className="CardVideo">
+        <div className="CardVideo" onClick={handleClick}>
             <img src={videoImg} className="VideoImg" />
             <div className="InfoVideo">
                 <div content="ImagenCanal">

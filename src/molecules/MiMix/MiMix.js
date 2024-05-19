@@ -10,21 +10,25 @@ const MiMix = () => {
             videoImg:  "https://i.ytimg.com/vi/4O1Bm5vJo2o/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDkukihYRnV0w0xu8yphX0EWh_dIQ",
             NomMix: "Mix: Angel Fish",
             Contenido: "Buck-Tick y Mucho más",
+            URL: "https://www.youtube.com/watch?v=4O1Bm5vJo2o&list=RD4O1Bm5vJo2o&start_radio=1"
         },
         {
             videoImg:  "https://i.ytimg.com/vi/lz_0q6CAlP8/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAIK20WqQIRa1iSILx-Oiq-TvbqWA",
             NomMix: "Mix: The Smashing Pumpkins - SpellBinding",
             Contenido: "The Smashing Pumpkins, The Verve, y Mucho más",
+            URL: "https://www.youtube.com/watch?v=lz_0q6CAlP8&list=RDlz_0q6CAlP8&start_radio=1"
         },
         {
-            videoImg:  "https://i.ytimg.com/vi/Ae8W4iuh-2c/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCsZeXMZR3pwKefgWlUOrX5nxeU8g",
-            NomMix: "Mix: Jet - f(x)",
-            Contenido: "f(x), Red Velvet, y Mucho más",
+            videoImg:  "https://i.ytimg.com/vi/aAfZWY3T-YA/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBe3RTJLdfjbwcpiR0YgIiUq3cpfQ",
+            NomMix: "Mix: Marina And The Diamonds - Gold",
+            Contenido: "Marina y Mucho más",
+            URL: "https://www.youtube.com/watch?v=aAfZWY3T-YA&list=RDaAfZWY3T-YA&start_radio=1"
         },
         {
-            videoImg:  "https://i.ytimg.com/vi/C8FQ4wQXyaE/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAG5p9XavE9kfaCG8ZnC1-hcUql-Q",
-            NomMix: "Mix: Pop",
-            Contenido: "Chayanne, Shakira, y Mucho más",
+            videoImg:  "https://i.ytimg.com/vi/b-9GNw-_1LA/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCxSVy5s2FSa4Bxh8MOc_fk0fCdGA",
+            NomMix: "Mix: Rewind",
+            Contenido: "Wonder Girls, NewJeans, AOA,  y Mucho más",
+            URL: "https://www.youtube.com/watch?v=b-9GNw-_1LA&list=RDb-9GNw-_1LA&start_radio=1"
         }
 
     ]
