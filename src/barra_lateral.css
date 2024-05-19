@@ -31,3 +31,17 @@
       top: 60px;
     }
   }
+
+  .sidebar-item {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+    cursor: pointer;
+    color: #fff; /* Texto blanco */
+  }
+
+  .sidebar-icon {
+    width: 24px; /* Ajusta el tamaño según sea necesario */
+    height: 24px;
+    margin-right: 10px; /* Espacio entre la imagen y el texto */
+  }

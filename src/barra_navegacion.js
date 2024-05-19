@@ -4,7 +4,7 @@ import './barra_navegacion.css';
 
 const NavBar = () => (
   <div className="navbar">
-    <img src="/Color-Youtube-logo.png" alt="Logo" className="logo" />  {/* Imagen en la barra de navegación */}
+    <img src="./Color-Youtube-logo.png" alt="Logo" className="logo" />  {/* Imagen en la barra de navegación */}
     <div className="search-container">
       <input type="text" placeholder="Buscar" className="search-bar" readOnly/>
       <button className="search-button">Buscar</button>
