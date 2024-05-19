@@ -1,5 +1,14 @@
 .contenedorBarra{
-    background-color: black;
-    margin: 10px;
+    display: flex;
+    gap:2px;
+    overflow-x: auto;
+    left: 0;
+    margin:0;
+    padding: 10px;
+    justify-content: flex-start;
+    align-items: center;
 }
+
+
+
 

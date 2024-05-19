@@ -1,8 +1,8 @@
 import React from 'react';
-import NavBar from './barra_navegacion.js';
-import Sidebar from './barra_lateral.js';
+import NavBar from '../molecules/barra_navegacion/barra_navegacion.js';
+import Sidebar from '../molecules/barra_lateral/barra_lateral.js';
 import './pagina_principal.css';
-import ContenedorVideos from './organism/ContenedorVideo/ContenedorVideos.js';
+import ContenedorVideos from './ContenedorVideo/ContenedorVideos.js';
 
 const sampleVideos = [
   {
