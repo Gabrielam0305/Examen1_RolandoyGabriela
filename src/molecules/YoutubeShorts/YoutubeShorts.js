@@ -36,7 +36,7 @@ const YoutubeShorts = () => {
     return (
         <section className="YoutubeShorts">
             <h3>Youtube Shorts</h3>
-            <div className="contenedorVideos">
+            <div className="contenedorVideosCortos">
                 {
                     data.map((objVideo) => (
                         <VideoCorto data={objVideo} />
